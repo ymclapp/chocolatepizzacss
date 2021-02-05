@@ -1,0 +1,101 @@
+body {
+    width: 960px;
+    margin: 50px;
+}
+
+p { 
+    text-indent:30px;
+    /* text-align: justify; */
+    text-justify: inter-word;
+    width: 92%;
+    border: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 19.5px;
+ }
+
+ ul {
+     list-style-type: none;
+ }
+
+#recipe {
+    background-image: url('/assets/list-bg.png');
+    column-count: 2;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+#ing1, #ing2 {
+    height: 250px;
+    /* margin: 2em auto; */
+    /* width: 70%; */
+    /* border: 1px solid green; */
+    /* float: left; */
+    font-size: 25px;
+    }
+
+#ing2 {
+    padding-top: 10px;
+    width: 100%;
+}
+
+#ing1 {
+    padding-top: 10px;
+    width: 70%;
+}
+
+#logo {
+    width: 50px;
+}
+#delicious {
+    font-family: 'Yellowtail'; font-size: 32px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 10px;
+}
+#best {
+    font-family: 'Lateef'; font-size: 10px;
+}
+#wide {
+    width: 425px;
+}
+#space {
+    padding-right: 10px;
+}
+#print {
+    width: 475px;
+    font-size: 11px;
+}
+#printer {
+    float: right;
+}
+.logos {
+    float: right;
+    padding: 1px;
+}
+
+#chocPi {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#postDate {
+    font-size: x-small;
+    float: inline-start
+}
+
+#piepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
