@@ -1,0 +1,72 @@
+body {
+    width: 960px;
+}
+#recipe {
+    background-image: url('/assets/list-bg.png');
+    column-count: 2;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 300px;
+    margin-top: 145px;
+    margin-bottom: 20px;
+    float: left;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+#ing1, #ing2 {
+    height: 300px;
+    margin: 2em auto;
+    width: 150px;
+    /* border: 1px solid green; */
+    }
+
+#logo {
+    width: 50px;
+}
+#delicious {
+    font-family: 'Yellowtail'; font-size: 32px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 10px;
+}
+#best {
+    font-family: 'Lateef'; font-size: 10px;
+}
+#wide {
+    width: 425px;
+}
+#space {
+    padding-right: 10px;
+}
+#print {
+    width: 475px;
+    font-size: 11px;
+}
+#printer {
+    float: right;
+}
+.logos {
+    float: right;
+    padding: 1px;
+}
+
+#chocPi {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#postDate {
+    font-size: x-small;
+    float: inline-start
+}
+
+#chocPiPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
