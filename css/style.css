@@ -1,15 +1,32 @@
 body {
     width: 960px;
+    margin: 50px;
 }
+
+p { 
+    text-indent:30px;
+    /* text-align: justify; */
+    text-justify: inter-word;
+    width: 92%;
+    border: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 19.5px;
+ }
+
+ ul {
+     list-style-type: none;
+ }
+
 #recipe {
     background-image: url('/assets/list-bg.png');
     column-count: 2;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
-    height: 300px;
-    margin-top: 145px;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px;
     margin-bottom: 20px;
     float: left;
     font-family: sans-serif;
@@ -17,11 +34,23 @@ body {
 }
 
 #ing1, #ing2 {
-    height: 300px;
-    margin: 2em auto;
-    width: 150px;
+    height: 250px;
+    /* margin: 2em auto; */
+    /* width: 70%; */
     /* border: 1px solid green; */
+    /* float: left; */
+    font-size: 25px;
     }
+
+#ing2 {
+    padding-top: 10px;
+    width: 100%;
+}
+
+#ing1 {
+    padding-top: 10px;
+    width: 70%;
+}
 
 #logo {
     width: 50px;
@@ -64,7 +93,7 @@ body {
     float: inline-start
 }
 
-#chocPiPic {
+#piepic {
     display: block;
     margin-left: auto;
     margin-right: auto;
